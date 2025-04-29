@@ -49,4 +49,4 @@ ddp_timeout: 180000000
 # model_name_or_path: "path/to/trained_model"  # 训练后的模型路径
 export_dir: saves/qwen/exp        # 导出模型的目标目录
 export_type: hf                            # 导出格式（hf = Hugging Face）
-export_quantization_bit: 4                   # 量化位数（可选，如 4 表示 4-bit 量化）
+# export_quantization_bit: 4                   # 量化位数（可选，如 4 表示 4-bit 量化）
